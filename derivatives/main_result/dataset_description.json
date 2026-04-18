@@ -1,0 +1,18 @@
+{
+  "Name": "Main result (Figure 9) for [https://doi.org/10.7554/eLife.106050.3]",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "figure9.m",
+      "Version": "1.0",
+      "Description": "Generates the data matrix and figure 9 of the paper."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "../../",
+      "Version": "1.0.0"
+    }
+  ]
+}
