@@ -1,0 +1,6 @@
+{
+  "Description": "Data matrix underlying Figure 9 of [https://doi.org/10.7554/eLife.106050.3]. Running figure9.m loads figure9.mat, generates all figures, and prints statistical results to the command window.",
+  "GeneratedBy": {
+    "Name": "figure9.m"
+  }
+}

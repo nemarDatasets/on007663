@@ -1,0 +1,38 @@
+{
+    "TaskName": "crossmodal",
+    "Manufacturer": "Elekta",
+    "PowerLineFrequency": 50.0,
+    "SamplingFrequency": 1000.0,
+    "SoftwareFilters": {
+        "MaxFilter": {
+            "Description": "Spatiotemporal Signal Space Separation (tSSS) via MNE-Python",
+            "Software": "MNE-Python",
+            "TemporalExtension": true,
+            "st_duration": 10,
+            "st_correlation": 0.9,
+            "BadChannelDetection": "Automatic via find_bad_channels_maxwell",
+            "CrossTalkCorrection": false,
+            "FineCalibration": false
+        }
+    },
+    "RecordingDuration": 3297.999,
+    "RecordingType": "continuous",
+    "DewarPosition": "upright",
+    "DigitizedLandmarks": true,
+    "DigitizedHeadPoints": true,
+    "MEGChannelCount": 306,
+    "MEGREFChannelCount": 0,
+    "ContinuousHeadLocalization": false,
+    "HeadCoilFrequency": [],
+    "EEGChannelCount": 0,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 5,
+    "TriggerChannelCount": 9,
+    "EyeTrackingChannelCount": 2,
+    "TaskDescription": "Cross-modal attention paradigm. Visual cues signalled whether upcoming targets required visual or auditory frequency discrimination. During the cue-to-target interval, the fixation cross was frequency-tagged at 36 Hz and amplitude-modulated white noise was played at 40 Hz. Targets were presented for 25 ms.",
+    "InstitutionName": "University of Birmingham",
+    "InstitutionAddress": "Centre for Human Brain Health, School of Psychology, Birmingham, UK",
+    "InstitutionDepartmentName": "Centre for Human Brain Health"
+}
