@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "CrossModal Study",
+  "description": "The CrossModal Study investigates how the brain prepares for and discriminates targets across sensory modalities using concurrent frequency-tagged visual and auditory stimulation. Participants performed a target-discrimination task with auditory or visual cues followed by a 3-second preparation interval during which a 36 Hz frequency-tagged fixation cross and 40 Hz amplitude-modulated tone were presented. Targets were either visual Gabor patches or auditory tones, presented with or without cross-modal distractors. The dataset includes MEG recordings, behavioral responses, and eye-tracking data from healthy control participants.",
+  "methods_description": "MEG data were acquired during a cued target-discrimination task with two experimental blocks. Block 1 contained unimodal trials (auditory cue-target or visual cue-target). Block 2 contained cross-modal trials with targets presented alongside distractors from the opposite modality. A 3-second preparation interval between cue and target featured frequency-tagged visual stimulation (36 Hz) and amplitude-modulated auditory stimulation (40 Hz). Task difficulty was individually calibrated prior to recording. Eye-tracking data were collected to monitor eye movements. Participants responded using a button box to identify one of three targets per modality.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,12 +26,30 @@
       "orcid": "0000-0001-5732-7555"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007663.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "cross-modal perception"
+    },
+    {
+      "term": "target discrimination"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "sensory preparation"
+    },
+    {
+      "term": "attention"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.7554/eLife.106050.3",
       "identifier_type": "DOI",
@@ -44,6 +64,11 @@
       "identifier": "https://nemar.org/dataset/on007663",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007663.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -56,12 +81,12 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "141.8 GB (67 files)"
   ],
   "formats": [
     ".fif",
@@ -71,34 +96,8 @@
     ".md",
     ".png",
     ".tsv",
-    ".wav"
+    ".wav",
+    ".yml"
   ],
-  "description": "The CrossModal Study is a neuroimaging dataset investigating cross-modal attention and target discrimination using MEG. Participants performed a cued target-discrimination task involving auditory and visual modalities, with frequency-tagged visual stimuli (36 Hz) and amplitude-modulated auditory stimuli (40 Hz) during a 3-second preparation interval. The dataset includes two experimental blocks: unimodal target presentation and cross-modal target-distractor conditions, with eye-tracking data to monitor oculomotor behavior.",
-  "methods_description": "MEG data were acquired during a cued target-discrimination task. Participants received auditory or visual cues indicating target modality, followed by 3 seconds of task-irrelevant stimulation (36 Hz frequency-tagged fixation cross and 40 Hz amplitude-modulated tone). Targets were either visual Gabor patches or auditory tones (three difficulty levels each, calibrated individually). Block 1 presented unimodal targets; Block 2 presented targets with cross-modal distractors. Eye-link data were recorded to monitor eye movements. Participants were healthy controls with normal or corrected-to-normal vision and no history of psychiatric or neurological illness.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
-    },
-    {
-      "term": "cross-modal perception"
-    },
-    {
-      "term": "alpha oscillations"
-    },
-    {
-      "term": "frequency tagging"
-    },
-    {
-      "term": "target discrimination"
-    },
-    {
-      "term": "auditory-visual integration"
-    }
-  ],
-  "source_hash": "170ad0108cc2088800d06f40b9088525838e651e4f628eda0af6035bcd69e548"
+  "source_hash": "dbe172e65a2e4dc9c958c9b8dc427756b9d2f72187c0ff9e036224095cd1478e"
 }
