@@ -1,42 +1,104 @@
 {
   "version": "2.0",
-  "dataset_id": "on007663",
-  "source": "openneuro",
-  "source_id": "ds007663",
+  "pipeline_stage": "validated",
   "title": "CrossModal Study",
-  "authors": {
-    "Marion Brickwedde": {},
-    "Rupali Limachya": {},
-    "Roksana Markiewicz": {},
-    "Emma Sutton": {},
-    "Christopher Postzich": {},
-    "Kimron Shapiro": {},
-    "Ole Jensen": {},
-    "Ali Mazaheri": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Marion Brickwedde": {
+      "orcid": "0000-0002-3461-038X"
+    },
+    "Rupali Limachya": {},
+    "Roksana Markiewicz": {
+      "orcid": "0000-0002-5311-8008"
+    },
+    "Emma Sutton": {},
+    "Christopher Postzich": {},
+    "Kimron Shapiro": {
+      "orcid": "0000-0002-0419-1460"
+    },
+    "Ole Jensen": {
+      "orcid": "0000-0001-8193-8348"
+    },
+    "Ali Mazaheri": {
+      "orcid": "0000-0001-5732-7555"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007663.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.7554/eLife.106050.3",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007663",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007663",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "meg"
-  ],
-  "datatypes": [
-    "meg"
   ],
   "funding_references": [
     {
       "funder_name": "Facebook Oculus"
     },
     {
-      "funder_name": "BBSRC (BB/R018723/1)"
+      "funder_name": "BBSRC",
+      "award_number": "BB/R018723/1"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "meg"
+  ],
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fif",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".png",
+    ".tsv",
+    ".wav"
+  ],
+  "description": "The CrossModal Study is a neuroimaging dataset investigating cross-modal attention and target discrimination using MEG. Participants performed a cued target-discrimination task involving auditory and visual modalities, with frequency-tagged visual stimuli (36 Hz) and amplitude-modulated auditory stimuli (40 Hz) during a 3-second preparation interval. The dataset includes two experimental blocks: unimodal target presentation and cross-modal target-distractor conditions, with eye-tracking data to monitor oculomotor behavior.",
+  "methods_description": "MEG data were acquired during a cued target-discrimination task. Participants received auditory or visual cues indicating target modality, followed by 3 seconds of task-irrelevant stimulation (36 Hz frequency-tagged fixation cross and 40 Hz amplitude-modulated tone). Targets were either visual Gabor patches or auditory tones (three difficulty levels each, calibrated individually). Block 1 presented unimodal targets; Block 2 presented targets with cross-modal distractors. Eye-link data were recorded to monitor eye movements. Participants were healthy controls with normal or corrected-to-normal vision and no history of psychiatric or neurological illness.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+    },
+    {
+      "term": "cross-modal perception"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "target discrimination"
+    },
+    {
+      "term": "auditory-visual integration"
+    }
+  ],
+  "source_hash": "170ad0108cc2088800d06f40b9088525838e651e4f628eda0af6035bcd69e548"
 }
