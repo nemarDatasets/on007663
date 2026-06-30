@@ -1,4 +1,6 @@
-﻿# README
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007663-blue)](https://doi.org/10.82901/nemar.on007663)
+
+# README
 
 ##Contact person
 
